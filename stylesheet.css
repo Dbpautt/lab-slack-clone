@@ -1,0 +1,233 @@
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---- typography ---- */
+
+body {
+  color: #5b5e6d; 
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: #323648;
+  line-height: 37px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: #323648;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h3 {}
+
+p {
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+/* ---- typography intro ---- */
+
+.site-form input {
+  font-size: 15px;
+}
+
+.submit button {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+}
+
+.centered-content {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+/* ---- typography features ---- */
+
+.discover a, .demo a {
+  text-transform: uppercase;
+  color: #3f46ad;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ---- typography get-started ---- */
+
+.get-started h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+
+
+/* ---- layout ---- */
+
+#site-header {
+  padding: 25px 30px;
+  background: #fff;
+}
+
+#site-footer {
+  color: white;
+  padding: 60px 0;
+  background: #111;
+}
+
+#site-main {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 30px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+/* ---- components ---- */
+
+/* ---- header ---- */
+
+header {
+  overflow: hidden;
+
+}
+
+/* ---- nav ---- */
+
+nav {
+
+}
+
+.homepage {
+  float: left;
+}
+
+.burger-menu {
+  float: right;
+  padding-top: 6px;
+}
+
+/* ---- main ----*/
+
+/* ---- intro ----*/
+
+.mission {
+  margin-bottom: 32px;
+}
+
+.site-form {
+  border: 1px solid #ebebeb;
+  background-color: white;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 23px;
+}
+
+.submit {
+  border-radius: 4px;
+  background-color: #3f46ad;
+  padding: 16px;
+  text-align: center;
+}
+
+.form {
+  margin-bottom: 50px;
+}
+
+
+/* ---- features ----*/
+
+.features {
+  background-color: #ebebeb;
+  padding: 40px 20px;
+}
+
+.testimonials {
+  margin-bottom: 30px;
+}
+
+.discover {
+  border: 1px solid #3f46ad;
+  background-color: white;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+.logos li {
+  border-bottom: 1px solid #5b5e6d;
+  padding: 30px;
+  list-style: none;
+  text-align: center;
+
+}
+
+.logos .logos-bottom {
+  border-bottom: none;
+}
+
+/* ---- get-started ----*/
+
+.get-started {
+  background-color: #3f46ad;
+  padding: 100px 30px;
+}
+
+.demo {
+  background-color: white;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+/* gris obscuro#5b5e6d
+   titular #323648
+   gris clarito borders #ebebeb 
+   azul/purple slack #3f46ad*/
+
+/* ---- footer ---- */
