@@ -60,10 +60,8 @@ p {
 }
 
 .submit button {
-  text-transform: uppercase;
-  color: white;
   font-size: 14px;
-}
+  }
 
 .centered-content {
   text-align: center;
@@ -72,14 +70,6 @@ p {
 }
 
 /* ---- typography features ---- */
-
-.discover a, .demo a {
-  text-transform: uppercase;
-  color: #3f46ad;
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: bold;
-}
 
 /* ---- typography get-started ---- */
 
@@ -128,24 +118,43 @@ p {
 
 /* ---- components ---- */
 
+.button {
+  border: 1px solid #3f46ad;
+  background-color: white;
+  color: #3f46ad;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  width:100%;
+  display: inline-block;
+}
+
+.button-inverted {
+  background-color: #3f46ad;
+  color: white;
+}
+
+
 /* ---- header ---- */
 
-header {
+#site-header {
   overflow: hidden;
 
 }
 
 /* ---- nav ---- */
 
-nav {
 
-}
-
-.homepage {
+#site-nav .homepage {
   float: left;
 }
 
-.burger-menu {
+#site-nav .burger-menu {
   float: right;
   padding-top: 6px;
 }
@@ -154,70 +163,69 @@ nav {
 
 /* ---- intro ----*/
 
-.mission {
+section.intro .mission {
   margin-bottom: 32px;
 }
 
-.site-form {
+section.intro .site-form {
   border: 1px solid #ebebeb;
   background-color: white;
   padding: 16px;
   border-radius: 4px;
   margin-bottom: 23px;
 }
+/* to-do space abstract */
 
-.submit {
+/* section.intro .submit {
   border-radius: 4px;
   background-color: #3f46ad;
   padding: 16px;
   text-align: center;
-}
+} */
 
-.form {
+section.intro .form {
   margin-bottom: 50px;
 }
 
 
 /* ---- features ----*/
 
-.features {
+section.features {
   background-color: #ebebeb;
   padding: 40px 20px;
 }
 
-.testimonials {
+section.features .testimonials {
   margin-bottom: 30px;
 }
 
-.discover {
+/* section.features .discover {
   border: 1px solid #3f46ad;
   background-color: white;
   padding: 16px;
   border-radius: 4px;
   margin-bottom: 23px;
   text-align: center;
-}
+} */
 
-.logos li {
+section.features .logos li {
   border-bottom: 1px solid #5b5e6d;
   padding: 30px;
   list-style: none;
   text-align: center;
-
 }
 
-.logos .logos-bottom {
+section.features .logos .logos-bottom {
   border-bottom: none;
 }
-
 /* ---- get-started ----*/
 
-.get-started {
+section.get-started {
   background-color: #3f46ad;
   padding: 100px 30px;
 }
 
-.demo {
+section.get-started .demo {
   background-color: white;
   padding: 16px;
   border-radius: 4px;
