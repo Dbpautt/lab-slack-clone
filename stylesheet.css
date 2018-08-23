@@ -13,11 +13,9 @@ html {
   padding: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+li {
+  list-style: none;
 }
-
 
 /* ---- typography ---- */
 
@@ -53,32 +51,13 @@ p {
   letter-spacing: 1px;
 }
 
-/* ---- typography intro ---- */
-
-.site-form input {
-  font-size: 15px;
+.copy ul {
+  padding-left: 30px;
 }
 
-.submit button {
-  font-size: 14px;
-  }
-
-.centered-content {
-  text-align: center;
-  font-size: 15px;
-  letter-spacing: 0.5px;
+.copy li {
+  list-style: disc;
 }
-
-/* ---- typography features ---- */
-
-/* ---- typography get-started ---- */
-
-.get-started h2 {
-  color: white;
-  margin-bottom: 30px;
-}
-
-
 
 /* ---- layout ---- */
 
@@ -88,9 +67,8 @@ p {
 }
 
 #site-footer {
-  color: white;
   padding: 60px 0;
-  background: #111;
+  background: white;
 }
 
 #site-main {
@@ -118,6 +96,10 @@ p {
 
 /* ---- components ---- */
 
+.sr-only {
+  display: none;
+}
+
 .button {
   border: 1px solid #3f46ad;
   background-color: white;
@@ -137,6 +119,22 @@ p {
 .button-inverted {
   background-color: #3f46ad;
   color: white;
+}
+
+
+form .field {
+  margin-bottom: 23px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  font-size: 15px;
+  border: 1px solid #ebebeb;
+  background-color: white;
+  padding: 16px;
+  border-radius: 4px;
 }
 
 
@@ -167,24 +165,14 @@ section.intro .mission {
   margin-bottom: 32px;
 }
 
-section.intro .site-form {
-  border: 1px solid #ebebeb;
-  background-color: white;
-  padding: 16px;
-  border-radius: 4px;
-  margin-bottom: 23px;
-}
-/* to-do space abstract */
-
-/* section.intro .submit {
-  border-radius: 4px;
-  background-color: #3f46ad;
-  padding: 16px;
-  text-align: center;
-} */
-
 section.intro .form {
   margin-bottom: 50px;
+}
+
+section.intro .sign-in {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.5px;
 }
 
 
@@ -199,19 +187,15 @@ section.features .testimonials {
   margin-bottom: 30px;
 }
 
-/* section.features .discover {
-  border: 1px solid #3f46ad;
-  background-color: white;
-  padding: 16px;
-  border-radius: 4px;
-  margin-bottom: 23px;
+section.features .claim {
   text-align: center;
-} */
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
 
 section.features .logos li {
   border-bottom: 1px solid #5b5e6d;
   padding: 30px;
-  list-style: none;
   text-align: center;
 }
 
@@ -224,6 +208,12 @@ section.get-started {
   background-color: #3f46ad;
   padding: 100px 30px;
 }
+
+section.get-started h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
 
 section.get-started .demo {
   background-color: white;
