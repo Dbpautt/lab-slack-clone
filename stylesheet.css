@@ -66,7 +66,7 @@ p {
 /* ---- layout ---- */
 
 #site-header {
-  padding: 25px 30px;
+  padding: 25px 30px 10px;
   background: #fff;
 }
 
@@ -77,6 +77,7 @@ p {
 
 #site-main {
   margin-bottom: 10px;
+  padding-top: 80px;
 }
 
 .container {
@@ -165,7 +166,6 @@ form textarea {
   position: fixed;
   top: 0;
   width: 100%;
-
 }
 
 /* ---- nav ---- */
